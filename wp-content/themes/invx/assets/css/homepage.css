@@ -1,0 +1,155 @@
+/* -----------------start header-------------- */
+.top-header{
+  background: #eee;
+}
+.nabvar-main{
+  background-color: #eeeeee !important;
+}
+.nabvar-main .navbar-toggler .navbar-toggler-icon{
+  background-color: #000000 !important;
+}
+.top-footer{
+  background: #000;
+}
+.bd-placeholder-img{
+  background-image: url('../../assets/image/slider-bg-3.jpg');
+}
+
+
+ .banner-hero .inner-text {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.client-logo {
+width: 149px;
+height: 29px;
+left: 877px;
+top: 613px;
+padding-bottom: 90px;
+}
+
+.services {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+color: #000000;
+}
+
+body {
+    background-color: #eee
+}
+
+.card {
+    background-color: white !important;
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important
+}
+
+.card:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important
+}
+
+.card>a {
+    text-decoration: none !important;
+    color: black !important
+}
+
+#blockitems {
+    margin-right: 0px !important;
+    margin-left: 0px !important
+}
+
+#icons_section {
+    width: 30%;
+    text-align: center;
+    padding: 0% !important
+}
+
+#icons_section>i {
+    font-size: 25px;
+    color: black !important
+}
+
+#heading_section {
+    width: 70%
+}
+
+#heading_section>h6 {
+    margin-bottom: 0px !important;
+    color: #990ae3 !important
+}
+
+#heading_section>p {
+    font-size: 14px !important
+}
+
+.cssanimation {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+
+.fadeInBottom {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.cssanimation2 {
+    animation-duration: 2s;
+    animation-fill-mode: both
+}
+
+.fadeInBottom2 {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom2 {
+    from {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.cssanimation3 {
+    animation-duration: 3s;
+    animation-fill-mode: both
+}
+
+.fadeInBottom3 {
+    animation-name: fadeInBottom
+}
+
+@keyframes fadeInBottom3 {
+    from {
+        opacity: 0;
+        transform: translateY(100%)
+    }
+
+    to {
+        opacity: 1
+    }
+}

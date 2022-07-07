@@ -1,0 +1,30 @@
+.breadcrumb-banner {
+    background: #000;
+}
+
+.contact .section-bg {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.banner-title {
+color: aliceblue
+}
+
+.contact .section-bg {
+    background: #F2F2F2;
+    margin-right: 0;
+    padding: 20px;
+    margin-bottom: 55px;	
+}
+
+.p .contact .address .email .phone {
+	color: #0B0B0B;
+}
+
+.section-title {
+	text-align: center;
+	padding-bottom: 50px;
+}

@@ -1,0 +1,205 @@
+/*
+ * GLOBAL CSS FILE
+ * This file will contain CSS for only global
+ * elements and default/fallback values for headings, buttons,
+ * form elements, texts etc
+ * Page wise CSS should be written in separate files.
+*/
+
+/* Header */
+.site-header {
+    background: linear-gradient(103.82deg, rgb(19 18 113 / 96%) 1.03%, rgb(14 13 90 / 94%) 100%);
+}
+.main-nav .nav-menu-container li {
+    display: inline-block;
+}
+.main-nav .nav-menu-container a {
+    font-family: var(--font-family-inter);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-size-16);
+    line-height: 19px;
+    text-transform: uppercase;
+    color: var(--text-color-white);
+    padding: 1em 1.25em;
+    display: block;
+}
+
+.main-nav .nav-menu-container li:last-child a {
+    background-color: transparent;
+    border: 1px solid var(--text-color-white);
+    color: var(--text-color-white);
+    border-radius: 50px;
+}
+
+.main-navigation .custom-logo-link img {
+    width: 175px;
+    height: 70px;
+}
+
+#primary-menu {
+	display: flex;
+    list-style: none;
+}
+
+#primary-menu li {
+	margin-left: 10px;
+}
+.tpg-header-wrapper {
+    display: none;
+}
+.mob-menu{
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    top: 100%;
+    transition: all 0.3s;
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    z-index: 99;
+    text-align: center;
+}
+.menu-toggler a{
+  color: var(--text-color-white);
+}
+
+/* Banner */
+.home-banner .elementor-widget-container{
+  color: var(--text-color-white);
+}
+.home-banner a span{
+  color: var(--text-color-white);
+}
+.home-banner a:hover span{
+  color: var(--primary-color);
+}
+.button-secondary a span{
+  color: var(--text-color-white);
+}
+.button-secondary a:hover span{
+  color: var(--primary-color);
+}
+
+/* Service section */
+.service-section h5 a{
+  font-family: var(--font-family-montserrat);
+  font-style: normal;
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-default);
+  line-height: 22px;
+}
+.service-title-section a span{
+  color: var(--text-color-white);
+}
+.service-title-section a:hover span{
+  color: var(--primary-color);
+}
+/* End Service section */
+
+/*Counter Section*/
+.elementor-counter-number{
+  color: var(--text-color-default);
+}
+.counter-section .elementor-counter{
+  position: relative;
+  top: 55px;
+  left: -15px;
+}
+.counter-section .elementor-counter span{
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-48);
+  line-height: 59px !important;
+}
+.counter-section h3{
+  font-family: var(--font-family-exo) !important;
+}
+.counter-section .elementor-image-box-content {
+  position: relative;
+  top: 34px;
+}
+/*End Counter Section*/
+
+/* Recent Projects */
+.recent-projects h5 {
+  font-weight: var(--font-weight-medium) !important;
+  font-size: var(--font-size-18) !important;
+  line-height: 22px !important;
+}
+.our-specialisation h4{
+  color: var(--text-color-default) !important;
+  font-size: var(--font-size-24) !important;
+  line-height: 29px !important;
+}
+.blogs-section h4 a{
+  color: var(--text-color-default) !important;
+}
+
+/* Contact page */
+.wpcf7-form input, textarea{
+  width: 100%;
+}
+.wpcf7-form input[type=submit]{
+  width: auto;
+}
+
+/* Blog page */
+.page-id-456 #primary .entry-header{
+  display: none;
+}
+.single-blog{
+  padding: 30px 0;
+}
+.post-title-inner{
+  padding: 20px 0;
+}
+.archive-meta {
+  display: flex;   
+  padding-bottom: 20px;
+}
+.entry-content{
+  padding-bottom: 20px;
+}
+
+/* Our Work */
+.page-id-975 #primary .entry-header{
+  display: none;
+}
+
+/* Terms & Condition */
+.page-id-1721 #primary .entry-header{
+  display: none;
+}
+.page-id-2684 #primary .entry-header, .page-id-2724 #primary .entry-header{
+  display: none;
+}
+
+/*Footer*/
+footer{
+    background: var(--secondary-color);
+}
+.main-footer h5{
+    color: var(--text-color-white);
+}
+.main-footer ul li a{
+    color: var(--text-color-white);
+}
+.main-footer .widget {
+    padding-bottom: 20px;
+}
+.main-footer .widget p{
+    font-size: var(--font-size-16);
+    color: var(--text-color-white);
+}
+
+@media (max-width: 767px){
+    #menu-main{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    .menu-toggler {
+        display: none;
+    }
+}
